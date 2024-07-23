@@ -95,7 +95,7 @@ const Navbar = () => {
           )}
         </AnimatePresence>
       </div>
-      <motion.ul className="flex gap-5 items-center text-lg text-white">
+      <motion.ul className="gap-5 items-center text-lg text-white hidden sm:hidden md:hidden lg:flex xl:flex">
         <motion.li
           whileHover={{ scale: 1.2 }}
           transition={{ duration: 0.2 }}
